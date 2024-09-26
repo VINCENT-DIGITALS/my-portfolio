@@ -4,9 +4,11 @@ import CV_Macayanan from '../Assets/CV_Macayanan.pdf';
 
 function Dashboard() {
   const [isImageLoaded, setIsImageLoaded] = useState(false); // Track if image is loaded
+  console.log("Dashboard component rendered");
 
   return (
     <div className="dashboard">
+      
       <div className="profile-section">
         <h1>Hello, It's Me</h1>
         <h2>John Vincent Macayanan</h2>

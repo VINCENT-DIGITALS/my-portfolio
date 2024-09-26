@@ -8,16 +8,15 @@ import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-const projectList = ['Project 1', 'Project 2', 'Project 3'];
 
 function App() {
   return (
-    <Router>
+    <Router basename="/my-portfolio">
       <div className="App">
         <Navbar />
         <Routes>
           <Route path="/" element={<Dashboard />} />
-          <Route path="/projects" element={<Projects projectList={projectList} />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
