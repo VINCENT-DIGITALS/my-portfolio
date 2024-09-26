@@ -7,6 +7,7 @@ body, html {
   font-family: 'Poppins', sans-serif;
   background-color: #0b0c10;
   color: #c5c6c7;
+  overflow-x: hidden;
 }
 
 #root {
@@ -36,6 +37,7 @@ body, html {
   padding: 1rem 2rem;
   background-color: #1f2833;
   color: #c5c6c7;
+
 }
 
 .logo {
@@ -58,6 +60,7 @@ body, html {
 .nav-links {
   display: flex;
   list-style: none;
+  
 }
 
 .nav-links li {
